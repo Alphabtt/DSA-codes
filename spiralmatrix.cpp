@@ -46,19 +46,10 @@ vector<int>SprialMatrix(vector<vector<int>>&matrix)
         count++;
       }
       startingCol++;
-
-      
-
-    }
-
-
+   }
 return ans;
 
-
-
 }
-
-
 
 int main()
 {
@@ -74,8 +65,6 @@ vector<vector<int>>matrix(nRow, vector<int>(mCols));
             cin>>matrix[i][j];
         }
     }
-
-
 }
 
 vector<int>res = SprialMatrix(matrix);
@@ -85,7 +74,5 @@ for(auto i: res)
     cout<<i<<" ";
 }
 
-
 return 0;
-
 }
